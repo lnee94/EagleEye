@@ -12,8 +12,8 @@ Install Script
 
 debian_install() {
     sudo apt update && sudo apt upgrade -y
-    sudo apt install git python3 python3-pip python3-dev
-    sudo apt install libgtk-3-dev libboost-all-dev build-essential cmake libffi-dev
+    sudo apt install git python3 python3-pip python3-dev -y
+    sudo apt install libgtk-3-dev libboost-all-dev build-essential cmake libffi-dev -y
 }
 
 arch_install_package() {
